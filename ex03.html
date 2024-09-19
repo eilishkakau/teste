@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ex03</h1>
+    <script>
+        var nomeAluno = prompt("Nome do aluno");
+        var nota1 = parseFloat(prompt("Nota 1"));
+        var nota2 = parseFloat(prompt("Nota 2"));
+        var nota3 = parseFloat(prompt("Nota 3"));
+        window.alert("Informe os pesos das notas.");
+        var peso1 = parseFloat(prompt("Peso 1"));
+        var peso2 = parseFloat(prompt("Peso 2"));
+        var peso3 = parseFloat(prompt("Peso 3"));
+
+        var soma = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) /
+        (peso1 + peso2 + peso3);
+
+        document.write("Aluno: "+nomeAluno+"<br>");
+        document.write("Nota Final:"+soma.toFixed(2));
+
+    </script>
+</body>
+</html>
