@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mais triste que três tigres tristes</h1>
+
+    <script>
+        var deposito = 0;
+        var taxa_juros = 0;
+
+        var nomeCliente = prompt("Informe o nome do cliente: ");
+        var deposito = parseFloat(prompt("Informe o valor do depósito: "));
+        var taxa_juros = parseFloat(prompt("Informe o valor da taxa: "));
+        taxa_juros = taxa_juros/100
+        var rendimento = deposito * taxa_juros
+
+        var total_rendimento = deposito + rendimento
+        console.log(rendimento)
+        console.log(total_rendimento)
+
+    </script>
+
+
+
+</body>
+</html>
